@@ -1,0 +1,1317 @@
+{
+  "id": "e356096d-a146-48cb-baa3-2366e55be4da",
+  "version": "2.0",
+  "name": "JfreeChart_Lab4",
+  "url": "https://www.gapcanada.ca/",
+  "tests": [{
+    "id": "b3974616-456b-4a17-a1c1-cb2fbff3f868",
+    "name": "Cart Management - Add Single Item",
+    "commands": [{
+      "id": "becc0dd0-cfa0-4479-803b-e28a5e651326",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3123c02-abe3-42f7-9e5b-ca86b16d8108",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2edb3d48-14c4-40bf-90cc-e141cef58c4c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-xg890x",
+      "targets": [
+        ["css=.sitewide-xg890x", "css:finder"],
+        ["xpath=//div[@id='MyAccountContainer']/button/div[2]", "xpath:idRelative"],
+        ["xpath=//button/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91659172-a7f5-4ff5-8ab9-882e3d9c7f72",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d926111b-3682-416d-be9f-8d5615fa12ea",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "mens t shirt"
+    }, {
+      "id": "071f1962-a9eb-45bc-9ce6-8324fabb4c38",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1r9qb44",
+      "targets": [
+        ["css=.sitewide-1r9qb44", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "35d18050-42c2-4943-81a0-0f459f932a52",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Baby & Toddler",
+      "targets": [
+        ["linkText=Baby & Toddler", "linkText"],
+        ["css=.topNavLink:nth-child(6) .sitewide-7bf6mf", "css:finder"],
+        ["xpath=//a[contains(text(),'Baby & Toddler')]", "xpath:link"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[6]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/division.do?cid=1137869&mlink=39813,30012485,Megnav_Baby&clink=30012485&nav=meganav%3ABaby%20%26%20Toddler%3A%3A')]", "xpath:href"],
+        ["xpath=//li[6]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Baby & Toddler')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ee5fe98-d368-4d42-9cd1-cb6ca120aa8e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Baby & Toddler",
+      "targets": [
+        ["linkText=Baby & Toddler", "linkText"],
+        ["css=.sitewide-874v1p", "css:finder"],
+        ["xpath=//a[contains(text(),'Baby & Toddler')]", "xpath:link"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[6]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/division.do?cid=1137869&mlink=39813,30012485,Megnav_Baby&clink=30012485&nav=meganav%3ABaby%20%26%20Toddler%3A%3A')]", "xpath:href"],
+        ["xpath=//li[6]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Baby & Toddler')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22c8789c-07af-4755-9985-a32aeba9638c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=a > #\\37 96255013",
+      "targets": [
+        ["css=a > #\\37 96255013", "css:finder"],
+        ["xpath=//img[@alt='Original T-Shirt']", "xpath:img"],
+        ["xpath=//img[@id='796255013']", "xpath:attributes"],
+        ["xpath=//div[@id='796255013']/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcd5ea42-4e9c-4707-81dd-45f6ede6515c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=a > #\\37 96255013",
+      "targets": [
+        ["css=a > #\\37 96255013", "css:finder"],
+        ["xpath=//img[@alt='Original T-Shirt']", "xpath:img"],
+        ["xpath=//img[@id='796255013']", "xpath:attributes"],
+        ["xpath=//div[@id='796255013']/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1e882fb-8841-4cf7-8321-588935b82430",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6.400000095367432)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f528f77-f18f-4a02-b88b-0fa388d0ee33",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > #\\38 78111763",
+      "targets": [
+        ["css=a > #\\38 78111763", "css:finder"],
+        ["xpath=//img[@alt='Organic Cotton Pocket T-Shirt']", "xpath:img"],
+        ["xpath=//img[@id='878111763']", "xpath:attributes"],
+        ["xpath=//div[@id='878111763']/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9ea620c-b575-42a4-ac2a-6d0c74b572bc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,171)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a545791-af58-4c79-85e1-334d1f543061",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,170)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c2d04ec-0afd-4f0e-b4d9-a3d93560bfd0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,238)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b849336-0f99-4826-8b88-5ec58368deb4",
+      "comment": "",
+      "command": "click",
+      "target": "id=variant-1-sizeDimension1-L",
+      "targets": [
+        ["id=variant-1-sizeDimension1-L", "id"],
+        ["css=#variant-1-sizeDimension1-L", "css:finder"],
+        ["xpath=//input[@id='variant-1-sizeDimension1-L']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-1-sizeDimension1-dimensions-group']/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84c46e4b-8938-4ee9-b680-0871929a7d51",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.kampyle_button-text",
+      "targets": [
+        ["css=.kampyle_button-text", "css:finder"],
+        ["xpath=//button[@id='nebula_div_btn']/div[2]", "xpath:idRelative"],
+        ["xpath=//span/button/div[2]", "xpath:position"],
+        ["xpath=//div[contains(.,'Feedback')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13516d14-3574-48c9-b2ee-0b7ef2fca1b5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.kampyle_button-text",
+      "targets": [
+        ["css=.kampyle_button-text", "css:finder"],
+        ["xpath=//button[@id='nebula_div_btn']/div[2]", "xpath:idRelative"],
+        ["xpath=//span/button/div[2]", "xpath:position"],
+        ["xpath=//div[contains(.,'Feedback')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0eca2e5-8a46-44f1-b17d-8ff6b539e650",
+      "comment": "",
+      "command": "click",
+      "target": "css=#AddToBag_add-to-bag__button > span",
+      "targets": [
+        ["css=#AddToBag_add-to-bag__button > span", "css:finder"],
+        ["xpath=//button[@id='AddToBag_add-to-bag__button']/span", "xpath:idRelative"],
+        ["xpath=//div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4861481f-9b1b-4b2d-b92c-f06c55704dc5",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkoutButton",
+      "targets": [
+        ["id=checkoutButton", "id"],
+        ["css=#checkoutButton", "css:finder"],
+        ["xpath=//button[@id='checkoutButton']", "xpath:attributes"],
+        ["xpath=//div[@id='modalWindow']/div[4]/div[3]/div[2]/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72f9c156-3d4f-4676-8022-b5f7267a64a3",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=/html/body/main/div/div[2]/div[1]/div/div[2]/main/div[1]/section/ul/li/div[1]/article[2]/h2",
+      "targets": [
+        ["css=.font-crossbrand > .flex:nth-child(2)", "css:finder"],
+        ["xpath=//section[@id='active-bag']/ul/li/div[2]", "xpath:idRelative"],
+        ["xpath=//li/div[2]", "xpath:position"]
+      ],
+      "value": "7000"
+    }, {
+      "id": "3374096f-89c2-428e-9cb4-67f4b8b27c2f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=/html/body/main/div/div[2]/div[1]/div/div[2]/main/div[1]/section/ul/li/div[1]/article[2]/h2",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1eb07c90-6df6-4d8f-ad16-451806e0153f",
+    "name": "Cart Management - Adding Multiple Items",
+    "commands": [{
+      "id": "4a1a4953-a554-4dea-b3d8-47530890d547",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6486deee-52a2-47e3-ae2d-b1aeb40401e0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b082b9a3-cad6-4f90-84e5-3296528e1d3c",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e598dfa8-d458-415f-b700-e7d176e3afcc",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "mens t shirt"
+    }, {
+      "id": "7274ccd6-89be-4795-9d75-d765478d9008",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1r9qb44",
+      "targets": [
+        ["css=.sitewide-1r9qb44", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5e57fe6-446f-42f6-b052-49ef5e6c15a2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,64.80000305175781)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc874bc8-7b48-40bf-b71e-7a6366eeac25",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,426.3999938964844)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10a8d592-2a08-4d1e-a309-f559d8e5f027",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,617.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c4055e6-9cf2-4de9-a75f-56e5066183d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > #\\37 97924043",
+      "targets": [
+        ["css=a > #\\37 97924043", "css:finder"],
+        ["xpath=//img[@alt='Gap Arch Logo T-Shirt']", "xpath:img"],
+        ["xpath=//img[@id='797924043']", "xpath:attributes"],
+        ["xpath=//div[@id='797924043']/a/img", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a06f5b2-00cc-4114-b520-47ee6598a977",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,171)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03d0831e-d49e-4d7a-86f1-2d958adfafcc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,170)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c60faf64-7e81-436c-a59f-9d75d7d28607",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,346)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a41d3a21-aa98-4695-b9ee-dff12651fa43",
+      "comment": "",
+      "command": "click",
+      "target": "id=variant-1-sizeDimension1-L",
+      "targets": [
+        ["id=variant-1-sizeDimension1-L", "id"],
+        ["css=#variant-1-sizeDimension1-L", "css:finder"],
+        ["xpath=//input[@id='variant-1-sizeDimension1-L']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-1-sizeDimension1-dimensions-group']/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8eb97e31-fa02-436c-8c40-56e29369be99",
+      "comment": "",
+      "command": "click",
+      "target": "css=#AddToBag_add-to-bag__button > span",
+      "targets": [
+        ["css=#AddToBag_add-to-bag__button > span", "css:finder"],
+        ["xpath=//button[@id='AddToBag_add-to-bag__button']/span", "xpath:idRelative"],
+        ["xpath=//div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "257ad418-e7cd-4269-9998-f9ecbb1ccaa1",
+      "comment": "",
+      "command": "click",
+      "target": "id=keepShoppingButton",
+      "targets": [
+        ["id=keepShoppingButton", "id"],
+        ["css=#keepShoppingButton", "css:finder"],
+        ["xpath=//button[@id='keepShoppingButton']", "xpath:attributes"],
+        ["xpath=//div[@id='modalWindow']/div[4]/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75010009-4446-4ab1-ae4a-2aa194c8b795",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcbd4deb-1124-4ac8-98b3-4fb90f6dd9c0",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "mens pants"
+    }, {
+      "id": "87257016-fd0e-4071-8b33-e9b556e4e709",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1r9qb44",
+      "targets": [
+        ["css=.sitewide-1r9qb44", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac9f9c79-b1da-494e-bd33-d529697463b9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1r9qb44",
+      "targets": [
+        ["css=.sitewide-1r9qb44", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "460aa7d4-1b90-4fdf-b478-a855545952f6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2.4000000953674316)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9dab0c9e-a8e7-4435-bfe8-2a6b580b517a",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > #\\38 55354003",
+      "targets": [
+        ["css=a > #\\38 55354003", "css:finder"],
+        ["xpath=//img[@alt='Hybrid Pants in Slim Fit']", "xpath:img"],
+        ["xpath=//img[@id='855354003']", "xpath:attributes"],
+        ["xpath=//div[@id='855354003']/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0930532d-fd9c-4d24-96a4-3b06c0d30b90",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,171)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5403b895-a875-4822-8b9e-f857bd5cfd10",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,176.39999389648438)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "526ccb5e-d309-4815-9c28-5e83b558f243",
+      "comment": "",
+      "command": "click",
+      "target": "id=variant-1-sizeDimension1-36W",
+      "targets": [
+        ["id=variant-1-sizeDimension1-36W", "id"],
+        ["css=#variant-1-sizeDimension1-36W", "css:finder"],
+        ["xpath=//input[@id='variant-1-sizeDimension1-36W']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-1-sizeDimension1-dimensions-group']/div/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edd28a2f-cd24-4c83-bd8c-ae5cbd91d460",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=variant-1-sizeDimension1-36W",
+      "targets": [
+        ["id=variant-1-sizeDimension1-36W", "id"],
+        ["css=#variant-1-sizeDimension1-36W", "css:finder"],
+        ["xpath=//input[@id='variant-1-sizeDimension1-36W']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-1-sizeDimension1-dimensions-group']/div/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4541562-1ddd-47cb-968b-020febf337c5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=variant-1-sizeDimension1-36W",
+      "targets": [
+        ["id=variant-1-sizeDimension1-36W", "id"],
+        ["css=#variant-1-sizeDimension1-36W", "css:finder"],
+        ["xpath=//input[@id='variant-1-sizeDimension1-36W']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-1-sizeDimension1-dimensions-group']/div/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1acaed2a-b32b-4077-ad47-60b5b1eea39d",
+      "comment": "",
+      "command": "click",
+      "target": "id=variant-1-sizeDimension2-32L",
+      "targets": [
+        ["id=variant-1-sizeDimension2-32L", "id"],
+        ["css=#variant-1-sizeDimension2-32L", "css:finder"],
+        ["xpath=//input[@id='variant-1-sizeDimension2-32L']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-1-sizeDimension2-dimensions-group']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5aa84023-4add-4f07-8648-f8d3f5798d33",
+      "comment": "",
+      "command": "click",
+      "target": "id=AddToBag_add-to-bag__button",
+      "targets": [
+        ["id=AddToBag_add-to-bag__button", "id"],
+        ["css=#AddToBag_add-to-bag__button", "css:finder"],
+        ["xpath=//button[@id='AddToBag_add-to-bag__button']", "xpath:attributes"],
+        ["xpath=//div[@id='AddToBagWithPrice']/button", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "354a1710-5beb-4c7f-b276-3419c72b77b7",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkoutButton",
+      "targets": [
+        ["id=checkoutButton", "id"],
+        ["css=#checkoutButton", "css:finder"],
+        ["xpath=//button[@id='checkoutButton']", "xpath:attributes"],
+        ["xpath=//div[@id='modalWindow']/div[4]/div[3]/div[2]/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d2b79d5-f0d0-4ef6-a367-93fb732c8a03",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3.200000047683716)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae0c836a-023e-4e15-bf74-66eeaf0fe979",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=/html/body/main/div/div[2]/div[1]/div/div[2]/main/div[1]/section/ul/li[1]/div[2]/article[2]/h2",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "2cd5366e-efa0-46ce-a531-2f0b99b5726d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=/html/body/main/div/div[2]/div[1]/div/div[2]/main/div[1]/section/ul/li[1]/div[2]/article[2]/h2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48bc6fbc-885c-4209-8445-8f72122f5a64",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=/html/body/main/div/div[2]/div[1]/div/div[2]/main/div[1]/section/ul/li[2]/div[1]/article[2]/h2",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "dddc069e-974a-47a0-a928-2ff1789c27b6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=/html/body/main/div/div[2]/div[1]/div/div[2]/main/div[1]/section/ul/li[2]/div[1]/article[2]/h2",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c06c28ca-ab59-49d8-80b5-f3fd6d153673",
+    "name": "Cart Management - Remove Item",
+    "commands": [{
+      "id": "30694d64-1520-4244-a496-3541b01905e9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5064f334-1fd7-4ca3-9b99-91be0f37f90b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bcbee67b-fc81-40de-ab49-1bdfd92bec87",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-15gmqjy > svg",
+      "targets": [
+        ["css=.sitewide-15gmqjy > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "97d4ae0b-0dfc-45c1-a7db-bf2eea81d7e3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-15gmqjy > svg",
+      "targets": [
+        ["css=.sitewide-15gmqjy > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c12a5007-9159-4c93-b933-0848686cfba4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=shopping-bag",
+      "targets": [
+        ["id=shopping-bag", "id"],
+        ["css=#shopping-bag", "css:finder"],
+        ["xpath=//button[@id='shopping-bag']", "xpath:attributes"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4995a1c3-86cf-4f59-b691-caae8f4ed1cf",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=shopping-bag",
+      "targets": [
+        ["id=shopping-bag", "id"],
+        ["css=#shopping-bag", "css:finder"],
+        ["xpath=//button[@id='shopping-bag']", "xpath:attributes"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e76c52c-5c25-4fd2-bf33-7a251799890a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1gnh86r",
+      "targets": [
+        ["css=.sitewide-1gnh86r", "css:finder"],
+        ["xpath=//button[@id='shopping-bag']/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//button/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e7ce1b6-def8-4997-aa9e-9d0b100b6f72",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1gnh86r",
+      "targets": [
+        ["css=.sitewide-1gnh86r", "css:finder"],
+        ["xpath=//button[@id='shopping-bag']/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//button/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0daf35f2-9b69-4068-a255-c6e70b3ff80b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1gnh86r",
+      "targets": [
+        ["css=.sitewide-1gnh86r", "css:finder"],
+        ["xpath=//button[@id='shopping-bag']/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d43d5589-3a77-4fa6-810e-6fa6813b16cc",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1gnh86r",
+      "targets": [
+        ["css=.sitewide-1gnh86r", "css:finder"],
+        ["xpath=//button[@id='shopping-bag']/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b4c0d0e-c323-4600-bf94-9b11671b2a4c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slick-active .sitewide-iorttu",
+      "targets": [
+        ["css=.slick-active .sitewide-iorttu", "css:finder"],
+        ["xpath=//img[@alt='the spring style event: 50% off your purchase — includes sale exclusions apply.']", "xpath:img"],
+        ["xpath=//div[@id='sitewide-app']/header/div[4]/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b067882-72ec-4017-a8e1-170bce41b9ec",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=/html/body/main/div/div[2]/div[1]/div/div[2]/main/div[1]/section/ul/li/div[1]/article[2]/h2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59d32c44-59d6-402f-91b7-581ae53ac031",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rounded-l > svg",
+      "targets": [
+        ["css=.rounded-l > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dbcabd8-fcd7-4266-b188-b889c82bac8e",
+      "comment": "",
+      "command": "verifyElementNotPresent",
+      "target": "xpath=/html/body/main/div/div[2]/div[1]/div/div[2]/main/div[1]/section/ul/li/div[1]/article[2]/h2",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8b3a1bf7-4624-4a31-80bc-a42b20414d1c",
+    "name": "Filtering - Adding Filter",
+    "commands": [{
+      "id": "9b9778e7-d682-48a3-ae74-018a60baf906",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48a7c42a-56b1-4934-a359-b327085ca499",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38fbb27e-029b-4736-8afe-ca1ff7e162e1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Baby & Toddler",
+      "targets": [
+        ["linkText=Baby & Toddler", "linkText"],
+        ["css=.topNavLink:nth-child(6) .sitewide-7bf6mf", "css:finder"],
+        ["xpath=//a[contains(text(),'Baby & Toddler')]", "xpath:link"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[6]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/division.do?cid=1137869&mlink=39813,30012485,Megnav_Baby&clink=30012485&nav=meganav%3ABaby%20%26%20Toddler%3A%3A')]", "xpath:href"],
+        ["xpath=//li[6]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Baby & Toddler')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12f91316-f38d-4a1e-b9d5-7666d2406721",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "750d80a0-8b4b-44f7-bd9b-19669e24a108",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1o6ghqv",
+      "targets": [
+        ["css=.sitewide-1o6ghqv", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffac1cc8-1f3c-4fc6-963a-64a8b9bb7cac",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1o6ghqv",
+      "targets": [
+        ["css=.sitewide-1o6ghqv", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2840411-3d13-4d23-9eb3-490469287759",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1r9qb44",
+      "targets": [
+        ["css=.sitewide-1r9qb44", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "daa79523-0d1d-486f-90b8-4bf1d6042e7c",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "mens shirt"
+    }, {
+      "id": "727cb9f5-876b-431f-8032-6c5ace98cd9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1r9qb44",
+      "targets": [
+        ["css=.sitewide-1r9qb44", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2b49e6c-e8ba-4027-8586-3628bf61d0e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1646plk:nth-child(5)",
+      "targets": [
+        ["css=.sitewide-1646plk:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='search']/div/div/div/div/div/div/button[5]", "xpath:idRelative"],
+        ["xpath=//button[5]", "xpath:position"],
+        ["xpath=//button[contains(.,'Fabric Material')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "109c3fa7-c216-4b3e-907f-490ed38565d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#checkbox__8 > .sitewide-1r87z",
+      "targets": [
+        ["css=#checkbox__8 > .sitewide-1r87z", "css:finder"],
+        ["xpath=//label[@id='checkbox__8']/div", "xpath:idRelative"],
+        ["xpath=//div[5]/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4417c317-c8d1-4457-b948-2f1f3388b2e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1s5nqvm",
+      "targets": [
+        ["css=.sitewide-1s5nqvm", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60083bc3-2400-46d1-a3b9-10839f7ca3dc",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=/html/body/main/div/div[2]/div[1]/div/div/div/div/div[1]/div[2]/div",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "1058eb65-0234-4997-a4a5-5006b46879ef",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=/html/body/main/div/div[2]/div[1]/div/div/div/div/div[1]/div[2]/div",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e9e5e5c5-c540-42af-99ea-3e7e34e0df59",
+    "name": "Filtering - Removing & Adding Different Filter",
+    "commands": [{
+      "id": "930ef96d-e97a-46e4-b2db-dc278f48aba8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/browse/search.do?searchText=mens%20jeans#fabricMaterial=Cotton",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf1512d1-739c-475b-ab8d-4475f6898f36",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a4952aa-bf73-40d0-a21d-f897fddff9bc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Baby & Toddler",
+      "targets": [
+        ["linkText=Baby & Toddler", "linkText"],
+        ["css=.topNavLink:nth-child(6) .sitewide-7bf6mf", "css:finder"],
+        ["xpath=//a[contains(text(),'Baby & Toddler')]", "xpath:link"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[6]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/division.do?cid=1137869&mlink=39813,30012485,Megnav_Baby&clink=30012485&nav=meganav%3ABaby%20%26%20Toddler%3A%3A')]", "xpath:href"],
+        ["xpath=//li[6]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Baby & Toddler')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75d84892-3b20-4f6f-a68f-11a63081bea0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Baby & Toddler",
+      "targets": [
+        ["linkText=Baby & Toddler", "linkText"],
+        ["css=.sitewide-874v1p", "css:finder"],
+        ["xpath=//a[contains(text(),'Baby & Toddler')]", "xpath:link"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[6]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/division.do?cid=1137869&mlink=39813,30012485,Megnav_Baby&clink=30012485&nav=meganav%3ABaby%20%26%20Toddler%3A%3A')]", "xpath:href"],
+        ["xpath=//li[6]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Baby & Toddler')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a3220cd-255d-438a-b570-e7264ed07681",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-dwrzc2 > svg",
+      "targets": [
+        ["css=.sitewide-dwrzc2 > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2b10607-9694-4a4c-84e4-48d1177b984f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-tflalm",
+      "targets": [
+        ["css=.sitewide-tflalm", "css:finder"],
+        ["xpath=//div[@id='search']/div/div/div/div[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Search results for: \"mens jeans\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a91359d4-0049-46e2-bcdd-d44464eed2c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-page__content_plp_enabled",
+      "targets": [
+        ["css=.search-page__content_plp_enabled", "css:finder"],
+        ["xpath=//div[@id='search']/div/div/div", "xpath:idRelative"],
+        ["xpath=//main/div/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfe91a3d-65cb-4847-b2a4-62c563623812",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.search-page__content_plp_enabled",
+      "targets": [
+        ["css=.search-page__content_plp_enabled", "css:finder"],
+        ["xpath=//div[@id='search']/div/div/div", "xpath:idRelative"],
+        ["xpath=//main/div/div[2]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adfe7911-fc23-4183-86f4-7a585ad44958",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-tflalm",
+      "targets": [
+        ["css=.sitewide-tflalm", "css:finder"],
+        ["xpath=//div[@id='search']/div/div/div/div[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Search results for: \"mens jeans\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "11755d37-bb18-42d5-8141-128eaf69306a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1646plk:nth-child(3)",
+      "targets": [
+        ["css=.sitewide-1646plk:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='search']/div/div/div/div/div/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Color')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f715e12-a12c-467a-b582-ea9f225ae878",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1646plk:nth-child(3)",
+      "targets": [
+        ["css=.sitewide-1646plk:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='search']/div/div/div/div/div/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Color')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "709f9caf-24a3-4125-97b9-6592ef420d3c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1646plk:nth-child(3)",
+      "targets": [
+        ["css=.sitewide-1646plk:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='search']/div/div/div/div/div/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Color')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22193350-5dc8-432e-9420-df14e7964565",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-u56m51",
+      "targets": [
+        ["css=.sitewide-u56m51", "css:finder"],
+        ["xpath=//div[2]/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dc752d8-2a8d-42c8-9ea5-3a6d88c81dc0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1s5nqvm",
+      "targets": [
+        ["css=.sitewide-1s5nqvm", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a684a8e8-fa57-4716-9875-6d4653347e80",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=/html/body/main/div/div[2]/div[1]/div/div/div/div/div[1]/div[2]/div",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "5993a0da-947c-416a-9086-de15a7590e1e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=/html/body/main/div/div[2]/div[1]/div/div/div/div/div[1]/div[2]/div",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4f44f0db-677c-4b3f-a3a0-abd94fe46a8e",
+    "name": "Filtering - Adding Mutiple Filters",
+    "commands": [{
+      "id": "362f9260-9113-4c03-8d91-5c3d80f8748c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee2cb9f0-8774-48b2-a907-ec358c8c2625",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "810x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb40527d-1459-4367-a79f-31f27ea0d04e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1fc921s > .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1fc921s > .sitewide-myihle", "css:finder"],
+        ["xpath=//img[@alt='the spring style event: 50% off your purchase — includes sale exclusions apply.']", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[3]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e35b32bd-e235-4448-9029-32338303085d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1fc921s > .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1fc921s > .sitewide-myihle", "css:finder"],
+        ["xpath=//img[@alt='the spring style event: 50% off your purchase — includes sale exclusions apply.']", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[3]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13bf9d99-2a69-47b0-87d3-a0da756d3af6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Athleta",
+      "targets": [
+        ["linkText=Athleta", "linkText"],
+        ["css=.brand-logo--AT", "css:finder"],
+        ["xpath=//a[contains(text(),'Athleta')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://athleta.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Athleta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aace3429-cecf-440e-bd77-54403308f3a5",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d52ca11a-07d0-424e-947e-edbec8c14882",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchText",
+      "targets": [
+        ["name=searchText", "name"],
+        ["css=.search--input", "css:finder"],
+        ["xpath=//input[@name='searchText']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "mens sweatpants"
+    }, {
+      "id": "909d66b3-34c5-43ba-aeac-f0e5a55ce317",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1r9qb44",
+      "targets": [
+        ["css=.sitewide-1r9qb44", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b6ce99f-4451-4d65-82e9-b5ffd2dba0eb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1r9qb44",
+      "targets": [
+        ["css=.sitewide-1r9qb44", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d59a68e-2770-4aec-9e82-54d9b7c6bd52",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Baby & Toddler",
+      "targets": [
+        ["linkText=Baby & Toddler", "linkText"],
+        ["css=.topNavLink:nth-child(6) .sitewide-7bf6mf", "css:finder"],
+        ["xpath=//a[contains(text(),'Baby & Toddler')]", "xpath:link"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[6]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/division.do?cid=1137869&mlink=39813,30012485,Megnav_Baby&clink=30012485&nav=meganav%3ABaby%20%26%20Toddler%3A%3A')]", "xpath:href"],
+        ["xpath=//li[6]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Baby & Toddler')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ec08ed3-37a8-4458-9671-4ada1e765ac7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=a > #\\37 37295373",
+      "targets": [
+        ["css=a > #\\37 37295373", "css:finder"],
+        ["xpath=//img[@alt='VintageSoft Joggers']", "xpath:img"],
+        ["xpath=//img[@id='737295373']", "xpath:attributes"],
+        ["xpath=//div[@id='737295373']/a/img", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f65c779f-411a-4613-aa35-ccedd6f6befc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1646plk:nth-child(3)",
+      "targets": [
+        ["css=.sitewide-1646plk:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='search']/div/div/div/div/div/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Color')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "249a83b4-5444-4959-a88d-9464c278bf91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-18szh1l",
+      "targets": [
+        ["css=.sitewide-18szh1l", "css:finder"],
+        ["xpath=//div[10]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd65936e-ab4c-424f-a012-c42019e95c87",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1t3tonn:nth-child(3) > .sitewide-1emtpg",
+      "targets": [
+        ["css=.sitewide-1t3tonn:nth-child(3) > .sitewide-1emtpg", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea8febdf-2d0a-4b18-914a-e3b22aef9d9e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1t3tonn:nth-child(3) > .sitewide-1emtpg",
+      "targets": [
+        ["css=.sitewide-1t3tonn:nth-child(3) > .sitewide-1emtpg", "css:finder"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45e420e1-6f47-428d-915c-a58c9486e9df",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1s5nqvm",
+      "targets": [
+        ["css=.sitewide-1s5nqvm", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b0c649b-cc8c-4284-94c1-2f7eb1a352f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1s5nqvm",
+      "targets": [
+        ["css=.sitewide-1s5nqvm", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c37885c9-5fff-44d7-935a-cd2c30a48a8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1646plk:nth-child(5)",
+      "targets": [
+        ["css=.sitewide-1646plk:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='search']/div/div/div/div/div/div/button[5]", "xpath:idRelative"],
+        ["xpath=//button[5]", "xpath:position"],
+        ["xpath=//button[contains(.,'Fabric Material')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2dff9eb7-556f-48a5-98ad-efb19924a912",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1t3tonn:nth-child(5) > .sitewide-1emtpg",
+      "targets": [
+        ["css=.sitewide-1t3tonn:nth-child(5) > .sitewide-1emtpg", "css:finder"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Fit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "023ebc72-fd1a-43d2-9522-6d23c09daced",
+      "comment": "",
+      "command": "click",
+      "target": "css=#checkbox__155 > .sitewide-1r87z",
+      "targets": [
+        ["css=#checkbox__155 > .sitewide-1r87z", "css:finder"],
+        ["xpath=//label[@id='checkbox__155']/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/div/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7138c541-2e71-4e10-a91a-6a6246463ae3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4ecb6fe-3fea-4e44-bcee-488755e61b42",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1s5nqvm",
+      "targets": [
+        ["css=.sitewide-1s5nqvm", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f153b2fa-5ccd-40b9-9fea-8b50ff0adb5f",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=/html/body/main/div/div[2]/div[1]/div/div/div/div/div[1]/div[2]/div",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "9ea3d8f4-b043-41a7-bc29-4452606d2b81",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=/html/body/main/div/div[2]/div[1]/div/div/div/div/div[1]/div[2]/div",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "40a228a0-dc3f-4e82-9948-3cf9c6b1e0fe",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.gapcanada.ca/"],
+  "plugins": []
+}

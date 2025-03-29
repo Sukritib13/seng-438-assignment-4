@@ -1,0 +1,2557 @@
+{
+  "id": "b6d3a851-edac-4681-991c-98c62ccdc756",
+  "version": "2.0",
+  "name": "JFreeChart_Lab4_WadesTesting",
+  "url": "https://www.gapcanada.ca/",
+  "tests": [{
+    "id": "1b4e50d6-948a-41e8-a088-3076ca0edf54",
+    "name": "New Arrivals (Men)",
+    "commands": [{
+      "id": "b5f2a327-0ad8-4c94-9bc8-eea4cb389d1f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f5bf1e6-55c1-4721-a33c-5a19951d5d02",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "806592ff-d2bf-480c-9a8a-a42a1d34f51a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=sitewide-account-button-greeting",
+      "targets": [
+        ["id=sitewide-account-button-greeting", "id"],
+        ["css=#sitewide-account-button-greeting", "css:finder"],
+        ["xpath=//div[@id='sitewide-account-button-greeting']", "xpath:attributes"],
+        ["xpath=//div[@id='MyAccountContainer']/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1c81f7b-c30b-4201-a87e-011b5d0bc4f7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1fc921s > .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1fc921s > .sitewide-myihle", "css:finder"],
+        ["xpath=//img[@alt='the spring style event: 50% off your purchase — includes sale exclusions apply.']", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[3]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "755fd6ec-0a7c-4860-a241-a54b0f5fbe82",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1fc921s > .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1fc921s > .sitewide-myihle", "css:finder"],
+        ["xpath=//img[@alt='the spring style event: 50% off your purchase — includes sale exclusions apply.']", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[3]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a6c3b62-d4cb-47b2-ac46-59fcd2e3b7b3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c81011c-f58e-4dc0-9ec0-a521a5223f9d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,16.66666603088379)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ace2b4be-3539-4dbe-adac-4584a69e2300",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b968af75-f794-4e31-9f1c-d80a72e7d28b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) > .sitewide-nchu2l",
+      "targets": [
+        ["css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) > .sitewide-nchu2l", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'New arrivals+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f7c50e8-48ad-42e5-84b7-177ce5a470e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1p4nw3o > .sitewide-1mxg2wh:nth-child(2) > .sitewide-1hmusrf",
+      "targets": [
+        ["css=.sitewide-1p4nw3o > .sitewide-1mxg2wh:nth-child(2) > .sitewide-1hmusrf", "css:finder"],
+        ["xpath=(//a[contains(text(),'Men')])[4]", "xpath:link"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/men/new-arrivals?cid=11900#pageId=0&department=75&mlink=5058,HP_MERCH_HERO1_M_CTA2')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee0e7138-aa45-4847-b2f3-4c8c0c1a0b6b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Banana Republic",
+      "targets": [
+        ["linkText=Banana Republic", "linkText"],
+        ["css=.brand-logo--BR", "css:finder"],
+        ["xpath=//a[contains(text(),'Banana Republic')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://bananarepublic.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Banana Republic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "73c2c5fd-7385-4ee3-9ab0-0ed9b8b9b976",
+    "name": "New Arrivals (Women)",
+    "commands": [{
+      "id": "c012544e-d399-493d-b690-9d376cfb45a7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b0864c2-b06a-4e09-9904-f879778091a0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6edc7097-0f5d-4538-9d3b-9d1b60f804e4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-39io8u",
+      "targets": [
+        ["css=.sitewide-39io8u", "css:finder"],
+        ["xpath=//div[@id='MyAccountContainer']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13e7ff43-55b4-4b54-a7bd-1d34e059105b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfc5fde1-3288-4007-a53e-713a5aa84beb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,16)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3bd66dc-2dbf-4e57-b8af-2d794bfa3f93",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f0df8cb-95d8-4947-998d-5e980afcc942",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) .sitewide-kjsifu",
+      "targets": [
+        ["css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) .sitewide-kjsifu", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/button/span[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7de2e21d-9995-4f13-8520-93e296791f7f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) .sitewide-kjsifu",
+      "targets": [
+        ["css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) .sitewide-kjsifu", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/button/span[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0829e4b3-644f-419e-b8e1-50fcc4d41b96",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) > .sitewide-nchu2l",
+      "targets": [
+        ["css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) > .sitewide-nchu2l", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'New arrivals+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99291992-69be-4ba8-bff4-adf7cbf42f7f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) > .sitewide-nchu2l",
+      "targets": [
+        ["css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) > .sitewide-nchu2l", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'New arrivals+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "27887a74-fa8f-4607-a98b-9411b604acb3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) .sitewide-0",
+      "targets": [
+        ["css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) .sitewide-0", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'New arrivals')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cfac88c-e1c2-4fa4-a268-fa6f996ce3d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) .sitewide-0",
+      "targets": [
+        ["css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) .sitewide-0", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'New arrivals')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "149b4dac-6f60-4cbd-914e-6e8395f4a598",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) .sitewide-0",
+      "targets": [
+        ["css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) .sitewide-0", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'New arrivals')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42433681-d1d7-440c-a371-6d2397795b07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1p4nw3o > .sitewide-1mxg2wh:nth-child(1) > .sitewide-1hmusrf",
+      "targets": [
+        ["css=.sitewide-1p4nw3o > .sitewide-1mxg2wh:nth-child(1) > .sitewide-1hmusrf", "css:finder"],
+        ["xpath=(//a[contains(text(),'Women')])[4]", "xpath:link"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/women/new-arrivals?cid=8792#pageId=0&department=136&mlink=5058,HP_MERCH_HERO1_W_CTA2')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d3d84fd-a9e7-4f7e-a923-b17a345249c6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1i03dk3",
+      "targets": [
+        ["css=.sitewide-1i03dk3", "css:finder"],
+        ["xpath=//div[@id='category-page']/div/main/div[3]/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//main/div[3]/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'All Filters (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15cf7b0f-8287-403c-a395-6ad18c0d0f0a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1i03dk3",
+      "targets": [
+        ["css=.sitewide-1i03dk3", "css:finder"],
+        ["xpath=//div[@id='category-page']/div/main/div[3]/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Filters (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb391c72-5bd3-4279-a598-885d1529b9b1",
+      "comment": "Makes Sure the proper filters are applied through the drop down buttons",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e5a3df56-e5b4-4c7c-88c9-4b1610421d37",
+    "name": "New Arrivals (girl)",
+    "commands": [{
+      "id": "9a82af0e-9cb4-417b-ba01-0d1808762313",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5d8f75e-31de-4855-a3c0-737ce6f98484",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a7c966c-bfa7-4d49-bfa3-97fe8576710e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-4l3k6u",
+      "targets": [
+        ["css=.sitewide-4l3k6u", "css:finder"],
+        ["xpath=(//img[@alt='Gap logo'])[2]", "xpath:img"],
+        ["xpath=//div[@id='sitewide-app']/header/div[6]/div/div/div/header/div[3]/a/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4028d734-eaf0-41ca-b6b8-34facec8da6c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-4l3k6u",
+      "targets": [
+        ["css=.sitewide-4l3k6u", "css:finder"],
+        ["xpath=(//img[@alt='Gap logo'])[2]", "xpath:img"],
+        ["xpath=//div[@id='sitewide-app']/header/div[6]/div/div/div/header/div[3]/a/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81a4aa1c-a621-4bf1-a99a-3d23beaacdb0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bad352f8-190b-4d3d-aa1d-1d27d1080312",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,77.33333587646484)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd00388b-1078-4484-a49e-5e7cbe187cc8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08bcada6-13d2-4d83-987b-74724e571cd3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1be23i1:nth-child(2) .sitewide-0",
+      "targets": [
+        ["css=.sitewide-1be23i1:nth-child(2) .sitewide-0", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'New arrivals')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "203b2d1b-9a1a-498b-8148-4d3b09e4f1f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1p4nw3o > .sitewide-1mxg2wh:nth-child(3) > .sitewide-1hmusrf",
+      "targets": [
+        ["css=.sitewide-1p4nw3o > .sitewide-1mxg2wh:nth-child(3) > .sitewide-1hmusrf", "css:finder"],
+        ["xpath=(//a[contains(text(),'Girls')])[4]", "xpath:link"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/girls/new-arrivals?cid=63895#pageId=0&department=48&mlink=5058,HP_MERCH_HERO1_G_CTA2')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a72a679c-b225-42f0-98f9-40a254c5ab77",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slick-active .sitewide-iorttu",
+      "targets": [
+        ["css=.slick-active .sitewide-iorttu", "css:finder"],
+        ["xpath=//img[@alt='the spring style event: 50% off your purchase — includes sale exclusions apply.']", "xpath:img"],
+        ["xpath=//div[@id='sitewide-app']/header/div[4]/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3513c0cd-820a-4f87-95a9-88713c8ea411",
+    "name": "New Arrivals (boys)",
+    "commands": [{
+      "id": "91272a7b-da47-4bc2-bb8f-91ed795f88a9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26fb6846-9bfd-44d2-8901-a8a8db31463e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6200ccc2-c1f6-491c-8945-41adff7764fb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1fc921s > .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1fc921s > .sitewide-myihle", "css:finder"],
+        ["xpath=//img[@alt='the spring style event: 50% off your purchase — includes sale exclusions apply.']", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[3]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8563c4ed-ed07-4cfb-9b90-3648a5f9e3e3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1fc921s > .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1fc921s > .sitewide-myihle", "css:finder"],
+        ["xpath=//img[@alt='the spring style event: 50% off your purchase — includes sale exclusions apply.']", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[3]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bfce37f-bced-48f8-b510-61cbff449bb6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4496083e-5560-43ac-a8fe-93d32fdab452",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a2b4c63-1843-403a-9ae5-a59b1607d7f8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,44)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f631f27-e30c-43b4-ac84-7165df28c163",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0243e438-4146-44e2-81ef-fd9930e67521",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) > .sitewide-nchu2l",
+      "targets": [
+        ["css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) > .sitewide-nchu2l", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'New arrivals+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "479875aa-ef40-4d35-922c-c5eb598cce9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) > .sitewide-nchu2l",
+      "targets": [
+        ["css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) > .sitewide-nchu2l", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'New arrivals+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f89f1dd4-d744-4abc-987e-415bdd2820e1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) > .sitewide-nchu2l",
+      "targets": [
+        ["css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) > .sitewide-nchu2l", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'New arrivals-')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cef2bfb4-25fc-4810-8398-27b2df06602b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1p4nw3o > .sitewide-1mxg2wh:nth-child(4) > .sitewide-1hmusrf",
+      "targets": [
+        ["css=.sitewide-1p4nw3o > .sitewide-1mxg2wh:nth-child(4) > .sitewide-1hmusrf", "css:finder"],
+        ["xpath=(//a[contains(text(),'Boys')])[4]", "xpath:link"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/boys/new-arrivals?cid=63896#pageId=0&department=16&mlink=5058,HP_MERCH_HERO1_B_CTA2')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17ce3f8f-a382-4fdc-8c61-99aa35934b65",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,44)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d3ef46a-4cfa-41d6-99ec-c8058730e796",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,173.3333282470703)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2ed3689c-bd1f-4853-ad38-e046dc16da2a",
+    "name": "New Arrivals (Toddler girl)",
+    "commands": [{
+      "id": "59f5e616-a6fc-473e-8382-aec808f87055",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2f10235-5f46-40eb-95d8-012ba0b460a5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c7ecd76-cd30-4b33-b08c-5d074d874a9f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-39io8u",
+      "targets": [
+        ["css=.sitewide-39io8u", "css:finder"],
+        ["xpath=//div[@id='MyAccountContainer']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8684c5eb-55b5-48c6-80c8-a13466d08fe6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1fc921s > .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1fc921s > .sitewide-myihle", "css:finder"],
+        ["xpath=//img[@alt='the spring style event: 50% off your purchase — includes sale exclusions apply.']", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[3]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ec58a66-527f-4785-bc4c-fa774516375f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1fc921s > .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1fc921s > .sitewide-myihle", "css:finder"],
+        ["xpath=//img[@alt='the spring style event: 50% off your purchase — includes sale exclusions apply.']", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[3]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cb9ef5d-a67c-4b4c-85bb-13ad18d6420e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f81920ca-8047-45bd-bf11-5daff3a6e20b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,52.66666793823242)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d12e1bca-dcf7-4dc9-9042-bf9e449a0fdf",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c544f293-7ece-4dcc-a88f-21144b5f27e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1be23i1:nth-child(2) > .sitewide-nchu2l",
+      "targets": [
+        ["css=.sitewide-1be23i1:nth-child(2) > .sitewide-nchu2l", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'New arrivals+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2707615e-8ddd-4895-9db3-5becbf92554c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Toddler Girl",
+      "targets": [
+        ["linkText=Toddler Girl", "linkText"],
+        ["css=.sitewide-1p4nw3o > .sitewide-1mxg2wh:nth-child(5) > .sitewide-1hmusrf", "css:finder"],
+        ["xpath=(//a[contains(text(),'Toddler Girl')])[3]", "xpath:link"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/baby-and-toddler/new-arrivals-for-her?cid=14249#pageId=0&department=165&mlink=5058,HP_MERCH_HERO1_TG_CTA2')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9564593d-a3b9-4c56-bf06-49081f926d4f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slick-active .sitewide-iorttu",
+      "targets": [
+        ["css=.slick-active .sitewide-iorttu", "css:finder"],
+        ["xpath=//img[@alt='the spring style event: 50% off your purchase — includes sale exclusions apply.']", "xpath:img"],
+        ["xpath=//div[@id='sitewide-app']/header/div[4]/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c948bce-d117-4a6b-8f7b-d84ea2078593",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slick-active .sitewide-iorttu",
+      "targets": [
+        ["css=.slick-active .sitewide-iorttu", "css:finder"],
+        ["xpath=//img[@alt='the spring style event: 50% off your purchase — includes sale exclusions apply.']", "xpath:img"],
+        ["xpath=//div[@id='sitewide-app']/header/div[4]/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "422362b4-6efa-4cae-934b-7ab1dd260bab",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.slick-active .sitewide-iorttu",
+      "targets": [
+        ["css=.slick-active .sitewide-iorttu", "css:finder"],
+        ["xpath=//img[@alt='the spring style event: 50% off your purchase — includes sale exclusions apply.']", "xpath:img"],
+        ["xpath=//div[@id='sitewide-app']/header/div[4]/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e0d86eb-da42-4056-9d97-30d51936db8e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3.3333332538604736)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "011d84fd-f81f-4d73-8023-765df219d056",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,258)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "856f6a66-9bbc-4b3c-bc06-4e16bb41acc4",
+    "name": "New Arrivals (Toddler Boys)",
+    "commands": [{
+      "id": "c582e9b6-b408-41eb-8390-6e3c3fb6dfd5",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81101a1a-f848-40af-b444-56b87c4bf7d6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b8fcaab-0789-4416-b4c1-c41c32415317",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41405a1e-0eaf-4fe8-ae9e-4eaf35a73541",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ed5a663-19f8-45b1-956d-e3cbeb812369",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,80)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7f4a547-753d-468b-9eb5-a682b0357916",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bd22117-923f-4e2c-babc-520969020ff3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) .sitewide-0",
+      "targets": [
+        ["css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(2) .sitewide-0", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'New arrivals')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc5bc1c3-98ae-4bc8-8a1f-8f3fe2c8f67d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Toddler Boy",
+      "targets": [
+        ["linkText=Toddler Boy", "linkText"],
+        ["css=.sitewide-1p4nw3o > .sitewide-1mxg2wh:nth-child(6) > .sitewide-1hmusrf", "css:finder"],
+        ["xpath=(//a[contains(text(),'Toddler Boy')])[3]", "xpath:link"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/baby-and-toddler/new-arrivals-for-him?cid=95575#pageId=0&department=166&mlink=5058,HP_MERCH_HERO1_TB_CTA2')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af0c9e7c-ed22-4d7c-acdd-88491eb3ce46",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Athleta",
+      "targets": [
+        ["linkText=Athleta", "linkText"],
+        ["css=.brand-logo--AT", "css:finder"],
+        ["xpath=//a[contains(text(),'Athleta')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://athleta.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Athleta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12d47098-4357-4a36-8fbc-2ee537e4aa2e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Athleta",
+      "targets": [
+        ["linkText=Athleta", "linkText"],
+        ["css=.brand-logo--AT", "css:finder"],
+        ["xpath=//a[contains(text(),'Athleta')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://athleta.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Athleta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eafe3314-1bf6-4c42-a480-d44824f5194e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Athleta",
+      "targets": [
+        ["linkText=Athleta", "linkText"],
+        ["css=.brand-logo--AT", "css:finder"],
+        ["xpath=//a[contains(text(),'Athleta')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://athleta.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Athleta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74355f80-26e6-4735-9914-d20ce7505280",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Banana Republic",
+      "targets": [
+        ["linkText=Banana Republic", "linkText"],
+        ["css=.brand-logo--BR", "css:finder"],
+        ["xpath=//a[contains(text(),'Banana Republic')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://bananarepublic.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Banana Republic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb01a708-3a1e-442e-9afe-6cacce0d7629",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Banana Republic",
+      "targets": [
+        ["linkText=Banana Republic", "linkText"],
+        ["css=.brand-logo--BR", "css:finder"],
+        ["xpath=//a[contains(text(),'Banana Republic')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://bananarepublic.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Banana Republic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "112d5d61-22e2-4fef-8fd9-96f3ec90e241",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,112.66666412353516)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "815ddacf-6ca1-49ba-8f93-e75c3aec6d26",
+    "name": "New Arrivals (Baby)",
+    "commands": [{
+      "id": "2e8fe041-3163-4ba3-a076-b04473fa9f86",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51f1132c-319a-47a8-910a-778bed1425f9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db84b8c7-a7d5-44e7-8ff1-d00f2fb78279",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Baby & Toddler",
+      "targets": [
+        ["linkText=Baby & Toddler", "linkText"],
+        ["css=.topNavLink:nth-child(6) .sitewide-7bf6mf", "css:finder"],
+        ["xpath=//a[contains(text(),'Baby & Toddler')]", "xpath:link"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[6]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/division.do?cid=1137869&mlink=39813,30012485,Megnav_Baby&clink=30012485&nav=meganav%3ABaby%20%26%20Toddler%3A%3A')]", "xpath:href"],
+        ["xpath=//li[6]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Baby & Toddler')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93f27b88-5941-4643-bc73-02d276aafc37",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1fc921s > .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1fc921s > .sitewide-myihle", "css:finder"],
+        ["xpath=//img[@alt='the spring style event: 50% off your purchase — includes sale exclusions apply.']", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[3]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "757d0a63-8eb1-4a9b-a6f5-37e39eda4727",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1fc921s > .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1fc921s > .sitewide-myihle", "css:finder"],
+        ["xpath=//img[@alt='the spring style event: 50% off your purchase — includes sale exclusions apply.']", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[3]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1be1e00d-8a88-4c0f-9e92-7465f7cad0e3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4546c8b7-44fe-42ca-a043-dbee4049eb64",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,23.33333396911621)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a5c344b-ebb5-41c6-9d6d-566fa293678c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "400c1e9a-ea27-4ab8-923a-1867df424297",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39e51c73-d7c2-45fd-809e-462c386106a2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac360169-d9b1-402e-b54e-52696886962f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1be23i1:nth-child(2) .sitewide-kjsifu",
+      "targets": [
+        ["css=.sitewide-1be23i1:nth-child(2) .sitewide-kjsifu", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/button/span[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26ce2e0e-b8c5-4345-a968-5eb1ccc7795b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Baby",
+      "targets": [
+        ["linkText=Baby", "linkText"],
+        ["css=.sitewide-1p4nw3o > .sitewide-1mxg2wh:nth-child(7) > .sitewide-1hmusrf", "css:finder"],
+        ["xpath=(//a[contains(text(),'Baby')])[6]", "xpath:link"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div[2]/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/baby-and-toddler/new-arrivals-for-baby?cid=63863#pageId=0&mlink=5058,HP_MERCH_HERO1_BABY_CTA2')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f68ba864-9e58-4a0d-9539-9f1cb386028e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.kampyle_button-text",
+      "targets": [
+        ["css=.kampyle_button-text", "css:finder"],
+        ["xpath=//button[@id='nebula_div_btn']/div[2]", "xpath:idRelative"],
+        ["xpath=//button/div[2]", "xpath:position"],
+        ["xpath=//div[contains(.,'Feedback')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "015a329f-4fab-427c-a80e-0c4bf5dd718b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35c7def6-bca1-4eb2-aada-3bbfc0cd6d4c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.kampyle_button-text",
+      "targets": [
+        ["css=.kampyle_button-text", "css:finder"],
+        ["xpath=//button[@id='nebula_div_btn']/div[2]", "xpath:idRelative"],
+        ["xpath=//button/div[2]", "xpath:position"],
+        ["xpath=//div[contains(.,'Feedback')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdd2e70c-1be0-41ab-9528-d30c71f1e4f8",
+      "comment": "Makes Sure the proper filters are applied through the drop down buttons",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "bf9ad322-7da6-4008-b7a8-c5ad22199d72",
+    "name": "Spring Event Edit (Women)",
+    "commands": [{
+      "id": "451444d4-9d61-40d3-ae80-05c5707bcdbb",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f847dc13-fa06-44a9-a51e-e61c6146c108",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5fa0cbed-f95f-46a8-a087-02a3e7e7eb8c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=sitewide-account-button-greeting",
+      "targets": [
+        ["id=sitewide-account-button-greeting", "id"],
+        ["css=#sitewide-account-button-greeting", "css:finder"],
+        ["xpath=//div[@id='sitewide-account-button-greeting']", "xpath:attributes"],
+        ["xpath=//div[@id='MyAccountContainer']/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9797ded-b318-41c8-8445-df3ac876046e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=sitewide-account-button-greeting",
+      "targets": [
+        ["id=sitewide-account-button-greeting", "id"],
+        ["css=#sitewide-account-button-greeting", "css:finder"],
+        ["xpath=//div[@id='sitewide-account-button-greeting']", "xpath:attributes"],
+        ["xpath=//div[@id='MyAccountContainer']/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dec2dc7e-e76a-43a4-bc8a-2866e7b4d624",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8de6f5a-18a2-4aee-bece-2f23e1c259d6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,27.33333396911621)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95c97967-482b-4fd6-afb7-33324701f854",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97c95e7d-e664-44b7-b1b8-e705fa939530",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1be23i1:nth-child(1) .sitewide-0",
+      "targets": [
+        ["css=.sitewide-1be23i1:nth-child(1) .sitewide-0", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Spring event edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18447333-0b0f-4cc3-a19d-937560093dac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1p4nw3o > .sitewide-1mxg2wh:nth-child(1) > .sitewide-1hmusrf",
+      "targets": [
+        ["css=.sitewide-1p4nw3o > .sitewide-1mxg2wh:nth-child(1) > .sitewide-1hmusrf", "css:finder"],
+        ["xpath=(//a[contains(text(),'Women')])[3]", "xpath:link"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/women/spring-party-shop?cid=3030729#pageId=0&department=136&mlink=5058,HP_MERCH_HERO1_W_CTA1')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80047030-0ba1-497f-89bd-b8b7ed4955fc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,40)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "eb86065f-0343-42ca-a673-d32ee255840f",
+    "name": "Spring Event Edit (Men)",
+    "commands": [{
+      "id": "fd842c2b-a821-4846-8ad7-fc5d21e5d2c2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc3e89f6-e417-4ecc-a765-9777101c4957",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d59acf71-3deb-46b6-8896-69a333112cd3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca1b4930-4fa5-43ba-89ee-2e7532301f58",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecaa0458-6e82-4e05-ad79-dc7d250154b6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,14)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06fcb62b-24a8-4268-986a-0390034619ba",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96df6627-e4c9-4dfc-99cf-5d402621824c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1be23i1:nth-child(1) > .sitewide-nchu2l",
+      "targets": [
+        ["css=.sitewide-1be23i1:nth-child(1) > .sitewide-nchu2l", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Spring event edit+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f30e5f1-7c9d-4267-bf0a-ffc01dd697f4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1be23i1:nth-child(1) > .sitewide-nchu2l",
+      "targets": [
+        ["css=.sitewide-1be23i1:nth-child(1) > .sitewide-nchu2l", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Spring event edit+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63557eab-b15b-461b-a422-cb7c3a18a00c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1be23i1:nth-child(1) .sitewide-0",
+      "targets": [
+        ["css=.sitewide-1be23i1:nth-child(1) .sitewide-0", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Spring event edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad0facf8-20f6-47b0-8943-52d5a64509d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1be23i1:nth-child(1) .sitewide-0",
+      "targets": [
+        ["css=.sitewide-1be23i1:nth-child(1) .sitewide-0", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Spring event edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40fbc709-4d86-41f5-aa53-f82b700daba7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1be23i1:nth-child(1) .sitewide-0",
+      "targets": [
+        ["css=.sitewide-1be23i1:nth-child(1) .sitewide-0", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Spring event edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "419a226f-4c70-4d3c-b50e-cf01530756a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1p4nw3o > .sitewide-1mxg2wh:nth-child(2) > .sitewide-1hmusrf",
+      "targets": [
+        ["css=.sitewide-1p4nw3o > .sitewide-1mxg2wh:nth-child(2) > .sitewide-1hmusrf", "css:finder"],
+        ["xpath=(//a[contains(text(),'Men')])[3]", "xpath:link"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/men/spring-edit?cid=3044134#pageId=0&department=75&mlink=5058,HP_MERCH_HERO1_M_CTA1')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "150fe06c-daac-4968-9c9e-e4bd9f42eb67",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1.3333333730697632)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9dd52a72-787e-4598-83b4-7d6922fc3242",
+    "name": "Spring Event Edit (Girls)",
+    "commands": [{
+      "id": "2e64189a-768e-4ffe-bd71-b2c9fc7c30f3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e53ca5e-4ccd-4e99-a224-cea920a97cc1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b34c23b-9e06-4345-b181-c988732213dd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "271ef508-78a4-4908-aac3-7751b56a307d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c89ec42-35b8-4da0-a173-a852133e3c42",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7.333333492279053)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f032fa28-c9d9-4454-8be3-0f1c93a86f82",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5750b88b-239c-42fc-b293-62c4bd982f49",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1fcd0b7-6714-4ed7-b2c8-566f43d21ce2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "575b391a-8366-4943-b9d6-6592b595d25e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(1) .sitewide-0",
+      "targets": [
+        ["css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(1) .sitewide-0", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Spring event edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6863235b-cda0-4d5a-bcfc-2875d602e962",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(1) .sitewide-0",
+      "targets": [
+        ["css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(1) .sitewide-0", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Spring event edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9589d5ed-a8ac-4542-bef3-9246cae1a45f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(1) .sitewide-0",
+      "targets": [
+        ["css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(1) .sitewide-0", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Spring event edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "247a86e4-65be-4373-9061-b277c4122aaa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1p4nw3o > .sitewide-1mxg2wh:nth-child(3) > .sitewide-1hmusrf",
+      "targets": [
+        ["css=.sitewide-1p4nw3o > .sitewide-1mxg2wh:nth-child(3) > .sitewide-1hmusrf", "css:finder"],
+        ["xpath=(//a[contains(text(),'Girls')])[3]", "xpath:link"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/girls/spring-party-shop?cid=1141742#pageId=0&department=48&mlink=5058,HP_MERCH_HERO1_G_CTA1')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e977681d-9325-4baf-9d83-57d480bb7d42",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Baby & Toddler",
+      "targets": [
+        ["linkText=Baby & Toddler", "linkText"],
+        ["css=.topNavLink:nth-child(6) .sitewide-7bf6mf", "css:finder"],
+        ["xpath=//a[contains(text(),'Baby & Toddler')]", "xpath:link"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[6]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/division.do?cid=1137869&mlink=39813,30012485,Megnav_Baby&clink=30012485&nav=meganav%3ABaby%20%26%20Toddler%3A%3A')]", "xpath:href"],
+        ["xpath=//li[6]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Baby & Toddler')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "998a4a80-3ec2-49fb-8626-a5c65524ee98",
+    "name": "Spring Event Edit (Boys)",
+    "commands": [{
+      "id": "00926cd5-697f-4cb5-8aa8-3fe2011cc177",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c068258e-1eec-493e-bd70-33a66362bd61",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea7cb5b4-4ecf-4773-bf5e-664fe7fa0032",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27c48db7-8f9b-4051-b06b-2952c52c9725",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c25dbb4-170a-4eed-ae2e-360a3f5c0be5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fdc54ddc-836e-4fcb-b54f-5f32efbb3a7e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ed2241e-e0a0-45e0-94f5-92f6fe60386b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88661ee5-ac82-44ac-9c89-2a7f6a03ccee",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3598abd5-e4ae-47a5-96b3-f8b5be00de62",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(1) > .sitewide-nchu2l",
+      "targets": [
+        ["css=.sitewide-knrfh7 > .sitewide-1be23i1:nth-child(1) > .sitewide-nchu2l", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Spring event edit+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2afd2ce3-b602-4f76-910d-531b161b6529",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1p4nw3o > .sitewide-1mxg2wh:nth-child(4) > .sitewide-1hmusrf",
+      "targets": [
+        ["css=.sitewide-1p4nw3o > .sitewide-1mxg2wh:nth-child(4) > .sitewide-1hmusrf", "css:finder"],
+        ["xpath=(//a[contains(text(),'Boys')])[3]", "xpath:link"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/boys/spring-party-shop?cid=1136774#pageId=0&department=16&mlink=5058,HP_MERCH_HERO1_B_CTA1')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad6ef4f4-fe0d-465c-bada-58e29709e32f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1.3333333730697632)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d042f4de-9220-41d9-9146-32cce8e38999",
+    "name": "Spring Event Edit (Toddlers and Babies)",
+    "commands": [{
+      "id": "e64a7b65-f959-4c80-b45a-cc335da65453",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10ae19fb-5ffc-4c83-a20c-9ad7b14a19f8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea0c2816-7e93-4741-a858-c5f5300e9668",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33de4a3e-1597-4ec1-af9b-1d42c497d19e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c85ddec-a0ae-428f-ae0b-4d62e186d5c5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,115.33333587646484)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75a947cc-439c-4b90-94c6-ed17d1dfdda1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcbca266-d08c-44bd-91d2-c5596c4ffe5c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2b85d6a-bb07-4221-986e-d303d07bf71c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66f24ad6-0b0e-47f0-962f-b88a6697b98f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1be23i1:nth-child(1) > .sitewide-nchu2l",
+      "targets": [
+        ["css=.sitewide-1be23i1:nth-child(1) > .sitewide-nchu2l", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Spring event edit+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3120c735-bfb6-4a77-9590-0d20ac5ada3a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1be23i1:nth-child(1) > .sitewide-nchu2l",
+      "targets": [
+        ["css=.sitewide-1be23i1:nth-child(1) > .sitewide-nchu2l", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Spring event edit+')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe5b7819-1af3-40f7-b025-38d607bb7861",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1be23i1:nth-child(1) .sitewide-0",
+      "targets": [
+        ["css=.sitewide-1be23i1:nth-child(1) .sitewide-0", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Spring event edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "979e4d4e-7331-4d34-9cda-8111090609e3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1be23i1:nth-child(1) .sitewide-0",
+      "targets": [
+        ["css=.sitewide-1be23i1:nth-child(1) .sitewide-0", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Spring event edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "156c1371-1d90-430c-b3c7-e45b2068c5df",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1be23i1:nth-child(1) .sitewide-0",
+      "targets": [
+        ["css=.sitewide-1be23i1:nth-child(1) .sitewide-0", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Spring event edit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f4ad750-e84a-4e52-8d16-cb942f59d50e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Baby & Toddler",
+      "targets": [
+        ["linkText=Baby & Toddler", "linkText"],
+        ["css=.sitewide-1p4nw3o > .sitewide-1mxg2wh:nth-child(5) > .sitewide-1hmusrf", "css:finder"],
+        ["xpath=//a[contains(text(),'Baby & Toddler')]", "xpath:link"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[5]/div/div/div[3]/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/baby-and-toddler/spring-party-shop?cid=1151844#pageId=0&mlink=5058,HP_MERCH_HERO1_BABY&TODDLER_CTA1')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Baby & Toddler')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02b3a934-bcf9-403c-b056-06c23265b448",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0.6666666865348816)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "39f8d3cd-733b-49a7-b69e-99d80c73f583",
+    "name": "Testing Switching to Sister-Companies (Old Navy)",
+    "commands": [{
+      "id": "fbd203bf-3464-4367-adf4-f0a5247faae5",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c2600f7-d61f-40c3-b68e-070ae10d1695",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8d57b42-1560-43e8-b91f-98a427d8e1c9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Women",
+      "targets": [
+        ["linkText=Women", "linkText"],
+        ["css=.topNavLink:nth-child(2) .sitewide-7bf6mf", "css:finder"],
+        ["xpath=//a[contains(text(),'Women')]", "xpath:link"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/division.do?cid=5643&mlink=39813,30012485,Megnav_Women&nav=meganav%3AWomen%3A%3A')]", "xpath:href"],
+        ["xpath=//li[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Women')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73f6fd12-c2aa-4b70-b8f3-790c2bbfbb7a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Gap",
+      "targets": [
+        ["linkText=Gap", "linkText"],
+        ["css=.brand-bar-button--active", "css:finder"],
+        ["xpath=//a[contains(text(),'Gap')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gap')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "27ed3641-205a-4d31-b0b5-c4ce804b0868",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Gap",
+      "targets": [
+        ["linkText=Gap", "linkText"],
+        ["css=.brand-bar-button--active", "css:finder"],
+        ["xpath=//a[contains(text(),'Gap')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gap')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "774a6c35-d3a5-4c43-b3c7-a0ab943812cb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Gap",
+      "targets": [
+        ["linkText=Gap", "linkText"],
+        ["css=.brand-bar-button--active", "css:finder"],
+        ["xpath=//a[contains(text(),'Gap')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gap')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6aeb97c-ab87-4b91-8549-1dbc7718d50b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Gap",
+      "targets": [
+        ["linkText=Gap", "linkText"],
+        ["css=.brand-bar-button--active", "css:finder"],
+        ["xpath=//a[contains(text(),'Gap')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gap')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8363655-a177-403a-802c-516dfc4c18bc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Old Navy",
+      "targets": [
+        ["linkText=Old Navy", "linkText"],
+        ["css=.brand-logo--ON", "css:finder"],
+        ["xpath=//a[contains(text(),'Old Navy')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://oldnavy.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Old Navy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e4fc787-a522-4b51-a52b-d3c0bb06c708",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Old Navy",
+      "targets": [
+        ["linkText=Old Navy", "linkText"],
+        ["css=.brand-logo--ON", "css:finder"],
+        ["xpath=//a[contains(text(),'Old Navy')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://oldnavy.gapcanada.ca/?ssiteID=GAP&_gl=1*1avvoe6*_gcl_au*MTc3NjM5MDIyNy4xNzQyOTk3NjE5')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Old Navy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eacf0d71-4413-4ae6-b878-9056078af9b3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=JOIN NAVYIST REWARDS",
+      "targets": [
+        ["linkText=JOIN NAVYIST REWARDS", "linkText"],
+        ["css=.amp-cms--body-3:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'JOIN NAVYIST REWARDS')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div[2]/div/div/div/div/div/div[2]/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://oldnavy.gapcanada.ca/browse/info.do?cid=1095422&locale=en_CA&mlink=5151,GlobalBanner_CanadaILP')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'JOIN NAVYIST REWARDS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "49feca19-0202-4b89-a355-bf0468b473ce",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=JOIN NAVYIST REWARDS",
+      "targets": [
+        ["linkText=JOIN NAVYIST REWARDS", "linkText"],
+        ["css=.amp-cms--body-3:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'JOIN NAVYIST REWARDS')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div[2]/div/div/div/div/div/div[2]/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://oldnavy.gapcanada.ca/browse/info.do?cid=1095422&locale=en_CA&mlink=5151,GlobalBanner_CanadaILP')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'JOIN NAVYIST REWARDS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d2010269-af81-46d5-8597-7874e24a2221",
+    "name": "Testing Switching to Sister-Companies (Banana Republic)",
+    "commands": [{
+      "id": "616985ce-f048-4a00-b3a9-740ee73d386a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "efd8115e-c00e-451a-8e42-782506b7e100",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20c984ab-4108-4a51-8c05-65d782c73931",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Banana Republic",
+      "targets": [
+        ["linkText=Banana Republic", "linkText"],
+        ["css=.brand-logo--BR", "css:finder"],
+        ["xpath=//a[contains(text(),'Banana Republic')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://bananarepublic.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Banana Republic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00c75df9-0795-4f90-af93-a2aee54b535b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Banana Republic",
+      "targets": [
+        ["linkText=Banana Republic", "linkText"],
+        ["css=.brand-logo--BR", "css:finder"],
+        ["xpath=//a[contains(text(),'Banana Republic')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://bananarepublic.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Banana Republic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5eeccf7-4f88-4e0f-8321-6b25c7c39a32",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Girls",
+      "targets": [
+        ["linkText=Girls", "linkText"],
+        ["css=.topNavLink:nth-child(4) .sitewide-7bf6mf", "css:finder"],
+        ["xpath=//a[contains(text(),'Girls')]", "xpath:link"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[4]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/division.do?cid=1137865&mlink=39813,30012485,Megnav_Girls&clink=30012485&nav=meganav%3AGirls%3A%3A')]", "xpath:href"],
+        ["xpath=//li[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Girls')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58168fb5-00bf-47fa-9143-6c2cd577878c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Old Navy",
+      "targets": [
+        ["linkText=Old Navy", "linkText"],
+        ["css=.brand-logo--ON", "css:finder"],
+        ["xpath=//a[contains(text(),'Old Navy')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://oldnavy.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Old Navy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5039397a-16d7-4bcf-8466-1bd28c9267fd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Old Navy",
+      "targets": [
+        ["linkText=Old Navy", "linkText"],
+        ["css=.brand-logo--ON", "css:finder"],
+        ["xpath=//a[contains(text(),'Old Navy')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://oldnavy.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Old Navy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e7b2039-982c-45c6-97eb-579313d4704c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Banana Republic",
+      "targets": [
+        ["linkText=Banana Republic", "linkText"],
+        ["css=.brand-logo--BR", "css:finder"],
+        ["xpath=//a[contains(text(),'Banana Republic')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://bananarepublic.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Banana Republic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13050c25-7734-4b4b-85dd-97bf8c391177",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Banana Republic",
+      "targets": [
+        ["linkText=Banana Republic", "linkText"],
+        ["css=.brand-logo--BR", "css:finder"],
+        ["xpath=//a[contains(text(),'Banana Republic')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://bananarepublic.gapcanada.ca/?ssiteID=GAP&_gl=1*1rk5109*_gcl_au*MTc3NjM5MDIyNy4xNzQyOTk3NjE5')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Banana Republic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "122647c7-1603-4fc8-96ce-c3589d5e7bf7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.brand-bar-button--active",
+      "targets": [
+        ["css=.brand-bar-button--active", "css:finder"],
+        ["xpath=//a[contains(text(),'Banana Republic')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://bananarepublic.gapcanada.ca?ssiteID=BR')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e208273c-75be-40eb-bdaa-60cac96865a8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.brand-bar-button--active",
+      "targets": [
+        ["css=.brand-bar-button--active", "css:finder"],
+        ["xpath=//a[contains(text(),'Banana Republic')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://bananarepublic.gapcanada.ca?ssiteID=BR')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3e572bd6-13ef-47a7-8130-92ef4cb89d2a",
+    "name": "Testing Switching to Sister-Companies (Athleta)",
+    "commands": [{
+      "id": "84c9adc9-26e2-46a8-869e-1fb44a05be1c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0c9c8cd-046e-4b1c-99cc-1f5cf256c854",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "767ac8c1-cda0-4e06-bf5d-659028ed28e8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Athleta",
+      "targets": [
+        ["linkText=Athleta", "linkText"],
+        ["css=.brand-logo--AT", "css:finder"],
+        ["xpath=//a[contains(text(),'Athleta')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://athleta.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Athleta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed84bda0-9876-46ff-a902-9971e466f6b7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Athleta",
+      "targets": [
+        ["linkText=Athleta", "linkText"],
+        ["css=.brand-logo--AT", "css:finder"],
+        ["xpath=//a[contains(text(),'Athleta')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://athleta.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Athleta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "442ddbbd-a81e-4991-94d1-84a86593dc8c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Banana Republic",
+      "targets": [
+        ["linkText=Banana Republic", "linkText"],
+        ["css=.brand-logo--BR", "css:finder"],
+        ["xpath=//a[contains(text(),'Banana Republic')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://bananarepublic.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Banana Republic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d058fdef-a60a-4974-9896-3c03b76e3e51",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Banana Republic",
+      "targets": [
+        ["linkText=Banana Republic", "linkText"],
+        ["css=.brand-logo--BR", "css:finder"],
+        ["xpath=//a[contains(text(),'Banana Republic')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://bananarepublic.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Banana Republic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfa53ae0-f8b0-4702-8a64-aec1129fa72c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Athleta",
+      "targets": [
+        ["linkText=Athleta", "linkText"],
+        ["css=.brand-logo--AT", "css:finder"],
+        ["xpath=//a[contains(text(),'Athleta')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://athleta.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Athleta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7787c3b-545f-4b29-b79d-4a2879f53fd4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Athleta",
+      "targets": [
+        ["linkText=Athleta", "linkText"],
+        ["css=.brand-logo--AT", "css:finder"],
+        ["xpath=//a[contains(text(),'Athleta')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://athleta.gapcanada.ca/?ssiteID=GAP&_gl=1*1vi5y0l*_gcl_au*MTc3NjM5MDIyNy4xNzQyOTk3NjE5')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Athleta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6877c4d6-04f9-48ea-8270-a1d9f17af205",
+    "name": "Clothing options responsivness",
+    "commands": [{
+      "id": "c79fc4a9-6190-4075-ad40-08a85a89eb4d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gapcanada.ca/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a59d4dd2-ed83-4b6b-b675-fc68b3a7960d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x695",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a53dd277-603a-4622-906f-76f4e2e999d4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Athleta",
+      "targets": [
+        ["linkText=Athleta", "linkText"],
+        ["css=.brand-logo--AT", "css:finder"],
+        ["xpath=//a[contains(text(),'Athleta')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/header/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://athleta.gapcanada.ca?ssiteID=GAP')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Athleta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76ade0ce-f11f-48ea-89e4-0971bb147fad",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1fc921s > .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1fc921s > .sitewide-myihle", "css:finder"],
+        ["xpath=//img[@alt='the spring style event: 50% off your purchase — includes sale exclusions apply.']", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[3]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd94c012-54eb-4308-aba3-d0cc7f9a73ea",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1fc921s > .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1fc921s > .sitewide-myihle", "css:finder"],
+        ["xpath=//img[@alt='the spring style event: 50% off your purchase — includes sale exclusions apply.']", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[3]/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfef2185-4c4d-4620-a9aa-286eef7620e9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e63c5ac-c530-4d4e-8378-2bcd41074252",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,14)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6febd624-eb40-4eef-b80d-b4673d0a7d61",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,234.6666717529297)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87623de2-cb23-4413-9373-2a157c54b4b3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sitewide-1myzp38 .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1myzp38 .sitewide-myihle", "css:finder"],
+        ["xpath=(//img[@alt='Make plans.'])[2]", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[4]/div/div[3]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "681cf55c-2cac-42b3-a567-d5e07da6e4ab",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,805.3333129882812)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "116f52c8-4924-493f-a5a5-491a5e77201c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1404.6666259765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5839e643-be8d-4ada-8335-14d7e0898cba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sitewide-1u8qly9:nth-child(1) .sitewide-l65f2r > .sitewide-myihle",
+      "targets": [
+        ["css=.sitewide-1u8qly9:nth-child(1) .sitewide-l65f2r > .sitewide-myihle", "css:finder"],
+        ["xpath=//img[@alt='Women']", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[7]/div/div/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/div/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c83f0510-2c00-47d7-b41d-57361f6be773",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6.666666507720947)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "855cbf0b-40c0-4e1b-8be2-23902335f568",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=a > #product713952023",
+      "targets": [
+        ["css=a > #product713952023", "css:finder"],
+        ["xpath=//img[@alt='Crinkle Gauze Easy Barrel Pants']", "xpath:img"],
+        ["xpath=//img[@id='product713952023']", "xpath:attributes"],
+        ["xpath=//div[@id='product713952023']/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fc1eaae-314b-4138-8df8-5d37204754cd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,339)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a1aaa65-42ce-4303-9416-6dbd4746b3b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > #product713952023",
+      "targets": [
+        ["css=a > #product713952023", "css:finder"],
+        ["xpath=//img[@alt='Product alternate image']", "xpath:img"],
+        ["xpath=//img[@id='product713952023']", "xpath:attributes"],
+        ["xpath=//div[@id='product713952023']/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd9468d6-08ea-4269-9a26-51a8ea55358c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,156.03334045410156)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8cbb7607-11fe-4bf7-8b35-a9cc1f9959f6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,163.03334045410156)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d451ee1b-9db1-4247-967e-743fb3c16017",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,533.0333251953125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e2080ef-f075-4b73-8037-da5481a55278",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1159.699951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "008e7f0f-394d-4916-98b1-0552d549e394",
+      "comment": "",
+      "command": "click",
+      "target": "id=buybox-color-swatch--Dazzling-blue",
+      "targets": [
+        ["id=buybox-color-swatch--Dazzling-blue", "id"],
+        ["name=color-radio", "name"],
+        ["css=#buybox-color-swatch--Dazzling-blue", "css:finder"],
+        ["xpath=//input[@id='buybox-color-swatch--Dazzling-blue']", "xpath:attributes"],
+        ["xpath=//div[@id='buy-box']/section/div/div[2]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7579c3f5-0a58-4368-b121-988f3c00fecc",
+      "comment": "",
+      "command": "click",
+      "target": "id=buybox-color-swatch--Rain-forest-green",
+      "targets": [
+        ["id=buybox-color-swatch--Rain-forest-green", "id"],
+        ["css=#buybox-color-swatch--Rain-forest-green", "css:finder"],
+        ["xpath=//input[@id='buybox-color-swatch--Rain-forest-green']", "xpath:attributes"],
+        ["xpath=//div[@id='buy-box']/section/div/div[2]/div/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91423ba2-2340-479e-afc7-3004c1803bbd",
+      "comment": "",
+      "command": "click",
+      "target": "id=buybox-color-swatch--New-off-white",
+      "targets": [
+        ["id=buybox-color-swatch--New-off-white", "id"],
+        ["css=#buybox-color-swatch--New-off-white", "css:finder"],
+        ["xpath=//input[@id='buybox-color-swatch--New-off-white']", "xpath:attributes"],
+        ["xpath=//div[@id='buy-box']/section/div/div[2]/div/div/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7dbe9e7-7ef6-44e9-b469-14c356b042ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=buybox-color-swatch--Arrow-brown",
+      "targets": [
+        ["id=buybox-color-swatch--Arrow-brown", "id"],
+        ["css=#buybox-color-swatch--Arrow-brown", "css:finder"],
+        ["xpath=//input[@id='buybox-color-swatch--Arrow-brown']", "xpath:attributes"],
+        ["xpath=//div[@id='buy-box']/section/div/div[2]/div/div/div/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f65b6d4-cd24-4aa1-b936-66de44c875ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=buybox-color-swatch--Basic-black",
+      "targets": [
+        ["id=buybox-color-swatch--Basic-black", "id"],
+        ["css=#buybox-color-swatch--Basic-black", "css:finder"],
+        ["xpath=//input[@id='buybox-color-swatch--Basic-black']", "xpath:attributes"],
+        ["xpath=//div[@id='buy-box']/section/div/div[2]/div/div/div/div[5]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae340c43-a951-41ed-bfbf-6cd6561b1b4f",
+      "comment": "",
+      "command": "click",
+      "target": "id=buybox-color-swatch--Standout-pink",
+      "targets": [
+        ["id=buybox-color-swatch--Standout-pink", "id"],
+        ["css=#buybox-color-swatch--Standout-pink", "css:finder"],
+        ["xpath=//input[@id='buybox-color-swatch--Standout-pink']", "xpath:attributes"],
+        ["xpath=//div[@id='buy-box']/section/div/div[2]/div/div/div/div[6]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d540cce-af10-4d7a-a56d-49621bc8d5b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=buy-box-2",
+      "targets": [
+        ["id=buy-box-2", "id"],
+        ["css=#buy-box-2", "css:finder"],
+        ["xpath=//input[@id='buy-box-2']", "xpath:attributes"],
+        ["xpath=//div[@id='buy-box']/section/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10b0a3aa-b502-4029-a1f3-271d7860f5d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=buy-box-3",
+      "targets": [
+        ["id=buy-box-3", "id"],
+        ["css=#buy-box-3", "css:finder"],
+        ["xpath=//input[@id='buy-box-3']", "xpath:attributes"],
+        ["xpath=//div[@id='buy-box']/section/div[2]/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2010e5f9-bb00-49b3-885b-53335f940562",
+      "comment": "",
+      "command": "click",
+      "target": "id=variant-3-sizeDimension1-XS",
+      "targets": [
+        ["id=variant-3-sizeDimension1-XS", "id"],
+        ["name=buy-box-Size", "name"],
+        ["css=#variant-3-sizeDimension1-XS", "css:finder"],
+        ["xpath=//input[@id='variant-3-sizeDimension1-XS']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-3-sizeDimension1-dimensions-group']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6261c494-a347-4302-8690-c496689e1ac9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=variant-3-sizeDimension1-XS",
+      "targets": [
+        ["id=variant-3-sizeDimension1-XS", "id"],
+        ["name=buy-box-Size", "name"],
+        ["css=#variant-3-sizeDimension1-XS", "css:finder"],
+        ["xpath=//input[@id='variant-3-sizeDimension1-XS']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-3-sizeDimension1-dimensions-group']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04aedcd0-b6c2-4fc6-9c5f-9b2df354cd93",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=variant-3-sizeDimension1-XS",
+      "targets": [
+        ["id=variant-3-sizeDimension1-XS", "id"],
+        ["name=buy-box-Size", "name"],
+        ["css=#variant-3-sizeDimension1-XS", "css:finder"],
+        ["xpath=//input[@id='variant-3-sizeDimension1-XS']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-3-sizeDimension1-dimensions-group']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "000e05ef-3330-4dee-93fe-e51c13a370dc",
+      "comment": "",
+      "command": "click",
+      "target": "id=variant-3-sizeDimension1-S",
+      "targets": [
+        ["id=variant-3-sizeDimension1-S", "id"],
+        ["css=#variant-3-sizeDimension1-S", "css:finder"],
+        ["xpath=//input[@id='variant-3-sizeDimension1-S']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-3-sizeDimension1-dimensions-group']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecc55be2-8698-47ad-8c1c-68685612286b",
+      "comment": "",
+      "command": "click",
+      "target": "id=variant-3-sizeDimension1-M",
+      "targets": [
+        ["id=variant-3-sizeDimension1-M", "id"],
+        ["css=#variant-3-sizeDimension1-M", "css:finder"],
+        ["xpath=//input[@id='variant-3-sizeDimension1-M']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-3-sizeDimension1-dimensions-group']/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5368ea5b-c939-4ff0-ae16-1e992d02cb13",
+      "comment": "",
+      "command": "click",
+      "target": "id=variant-3-sizeDimension1-L",
+      "targets": [
+        ["id=variant-3-sizeDimension1-L", "id"],
+        ["css=#variant-3-sizeDimension1-L", "css:finder"],
+        ["xpath=//input[@id='variant-3-sizeDimension1-L']", "xpath:attributes"],
+        ["xpath=//div[@id='variant-3-sizeDimension1-dimensions-group']/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6ee5aafe-bed5-4dbd-9977-6d25fa267788",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1b4e50d6-948a-41e8-a088-3076ca0edf54"]
+  }],
+  "urls": ["https://www.gapcanada.ca/"],
+  "plugins": []
+}
